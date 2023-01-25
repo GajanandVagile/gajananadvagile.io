@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+            margin: 40px 40px 40px 40px;
+
+
+        }
+
+        .container p {
+            margin-top: 10px;
+        }
+
+        .contact {
+            margin-left: 40px;
+            margin-right: 40px;
+            border: 3px solid blue;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        .left-side {
+            width: 60%;
+            margin: 20px;
+        }
+
+        .left-side h4 {
+            margin-bottom: 20px;
+        }
+
+        .input-row {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20px;
+
+        }
+
+        .inpur-group label {
+            width: 100%;
+            display: inline-block;
+            margin-bottom: 3px;
+        }
+
+        .inpur-group {
+            flex-basis: 45%;
+        }
+
+        .inpur-group input {
+            border: none;
+            border-bottom: 2px solid #ccc;
+            outline: none;
+            width: 100%;
+            margin-bottom: 35px;
+        }
+
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc;
+            outline: none;
+            margin-top: 6px;
+
+        }
+
+        label {
+            margin-bottom: 6px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            outline: none;
+            border: 1px solid rgb(255, 255, 255);
+
+            background-color: black;
+            color: white;
+
+        }
+
+        button:hover {
+            cursor: pointer;
+            transition: grease-in-out 0.4s;
+        }
+
+        .right-side {
+            margin: 20px;
+            background-color: black;
+            color: white;
+            width: 40%;
+            padding: 10px;
+
+        }
+
+        .ilinks {
+            margin-top: 30px;
+        }
+
+        .ilinks h6 {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        @media screen and (max-width:800px) {
+            .contact {
+                margin-left: 40px;
+                margin-right: 40px;
+
+                flex-direction: column;
+
+            }
+
+            .left-side {
+                width: 90%;
+
+            }
+
+            .right-side {
+                width: 80%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            Connect With Me
+        </h2>
+        <p>In the below form enterr your basic details and also about the project <br>i will rech you as soon as
+            possible</p>
+            <div class="note">
+                <h4>note:
+                    Currantly this contact form is not working you can connect me via social platforms which given in my main page
+                </h4>
+            </div>
+    </div>
+    <div class="contact">
+        <div class="left-side">
+            <h4>send me your request</h4>
+            <form action="">
+                <div class="input-row">
+                    <div class="inpur-group">
+                        <label for="text">Name</label>
+                        <input type="text" placeholder="Enter your Name">
+                    </div>
+                    <div class="inpur-group">
+                        <label for="number">Phone</label>
+                        <input type="text" placeholder="Enter your number">
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="inpur-group">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Enter your E-mail">
+                    </div>
+                    <div class="inpur-group">
+                        <label for="">Subject</label>
+                        <input type="text" placeholder="Enter project type">
+                    </div>
+                </div>
+                <label for="text">message</label>
+                <textarea rows="5" placeholder="Project details"></textarea>
+                <button>Send</button>
+
+
+            </form>
+
+
+        </div>
+        <div class="right-side">
+            <h4>Reach us</h4>
+            <div class="information">
+                <div class="ilinks">
+                    <h6>Email</h6>
+                    <p>gajanandvaghile2003@gmail.com</p>
+                </div>
+                <div class="information">
+                    <div class="ilinks">
+                        <h6>Whatsapp</h6>
+                        <p>7093868153</p>
+                    </div>
+
+                </div>
+                <div class="information">
+                    <div class="ilinks">
+                        <h6>Office</h6>
+                        <p>K-Sector, MIDC Waluj, Aurangabad (Ch.Sambhaji maharaj nagar). Maharashtra</p>
+                    </div>
+                </div>
+
+            </div>
+            
+
+</body>
+
+</html>
